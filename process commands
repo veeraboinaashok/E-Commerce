@@ -1,4 +1,5 @@
-   1   apt update -y
+follow this commands 
+    1  apt update -y
     2  apt install php
     3  php -v
     4  sudo apt install php-fpm php-curl php-bcmath php-mysql  php-xml        php-zip php-gd php-intl php-pdo
