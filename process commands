@@ -1,0 +1,49 @@
+   1   apt update -y
+    2  apt install php
+    3  php -v
+    4  sudo apt install php-fpm php-curl php-bcmath php-mysql  php-xml        php-zip php-gd php-intl php-pdo
+    6  php -version
+    7  php -m
+    8  apt install php8.1-xml
+    9  apt install php-gdapt i
+   10  apt install php-int1
+   11  apt install apache2
+   12  apt install mysql-server
+   13  mysql_secure_installation
+   14  sudo mysql
+   15  cd /var/www/html/
+   16  ls
+   17  rm index.html
+   18  ls
+   19  git clone https://github.com/Marolix2011/E-Commerce.git
+   20  ls
+   21  mysql -u root -p
+   22  cd /var/www/html/E-Commerce/database/database/
+   23  ls
+   24  mysql -u root -p ecommerce_marolix < ecommerce_marolix.sql
+   25  mysql -u root -p
+   26  cd /var/www/html/E-Commerce/E-commerce-7June
+   27  mv .env.example .env
+   28  vi .env
+   29  cd ~
+   30  php -r "copy('http://getcomposer.org/installer', 'composer-       setup.php');"
+   31  php composer-setup.php
+   32  php composer.phar
+   33  sudo mv composer.phar /usr/local/bin/composer
+   34  composer
+   35  sudo chown -R www-data:www-data /var/www/html/E-Commerce
+   36  sudo chmod -R 775 /var/www/html/E-Commerce/
+   37  cd /var/www/html/E-Commerce/E-commerce-7June/
+   38  cd
+   39  sudo apt install php-int1
+   40  php --ini
+   41  apt install php-int1
+   42  apt install php-ini
+   43  sudo apt-get install php-intl
+   44  cd /var/www/html/E-Commerce/E-commerce-7June/
+   45  composer update
+   46  composer install
+   47  php artisan key:generate
+   48  php artisan migrate
+   49  history
+
